@@ -1,5 +1,6 @@
 # in AWS Lambda, we need to use this import below
 import tflite_runtime.interpreter as tflite
+import numpy as np
 from urllib.request import urlopen
 from PIL import Image
 
