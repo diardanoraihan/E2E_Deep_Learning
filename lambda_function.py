@@ -5,7 +5,7 @@ from urllib.request import urlopen
 from PIL import Image
 
 # Create an interpreter interface for any model in TFLite
-interpreter = tflite.Interpreter(model_path='Models/clothing_classifier.tflite')
+interpreter = tflite.Interpreter(model_path='clothing_classifier.tflite')
 interpreter.allocate_tensors()
 
 # Get a list of input details from the model
