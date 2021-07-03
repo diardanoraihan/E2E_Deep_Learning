@@ -6,10 +6,23 @@ The Jovian Data Science Capstone Project: Build an end-to-end deep learning mode
 - __Social Media__: [LinkedIn](https://www.linkedin.com/in/diardanoraihan), [Medium](https://diardano.medium.com/)
 
 ## Project Summary
+Imagine we need to deal with lots of real-world clothes images and your responsibility is to create an automated image classifier for an e-commerce company. As a result, the challenge is not only we need to build a robust deep learning model, but also deploy it as a __serverless app__ since we only focus on the business solution, not the heavy-lifting infrastructure that hosts the app. Luckily, the combination of __AWS Lambda__ and __API Gateway__ can be used for hosting serverless APIs. 
+
+In this project, we will learn together how to:
+- __train a deep learning model__ to classify images using TensorFlow.
+- __convert the model into a more size-efficient__ format using TensorFlow Lite.
+- __deploy the model locally__ on our machine using Docker.
+- __deploy the model as a REST API__ using AWS Lambda and API Gateway.
 
 
 ## Datasets
-
+| Classes | Average <br /> Sentence Length | Dataset Size | Vocab Size | *Test Size | 
+|:-------:|:-------:|:-------------------:|:------------:|:----------:|:---------:|
+|        | 20                  | 10662        | 18758      | CV        |
+|       | 23                  | 10000        | 21322      | CV        |
+|        | 10                  | 5952         | 8759       | 500       |
+|        | 19                  | 3775         | 5334       | CV        |
+|        | 3                   | 10606        | 6234       | CV        |
 
 
 ## The Proposed Deep Learning Model
