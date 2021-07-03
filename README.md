@@ -18,17 +18,17 @@ In this project, we will learn together how to:
 ## Datasets
 | Label | Dataset Size | Train Size | Test Size | Validation Size | 
 |:-------:|:-------:|:-------------------:|:------------:|:----------:|
-| `dress`       | 2       | 20                  | 10662        | 18758      |
-| `hat`         | 2       | 23                  | 10000        | 21322      |
-| `longsleeve`  | 5       | 10                  | 5952         | 8759       |
-| `outwear`     | 2       | 19                  | 3775         | 5334       |
-| `pants`       | 2       | 3                   | 10606        | 6234       |
-| `shirt`       | 2       | 3                   | 10606        | 6234       |
-| `shoes`       | 2       | 3                   | 10606        | 6234       |
-| `shorts`      | 2       | 3                   | 10606        | 6234       |
-| `skirt`       | 2       | 3                   | 10606        | 6234       |
-| `t-shirt`     | 2       | 3                   | 10606        | 6234       |
-
+| `dress`       | 288       | 241                  | 15        | 32     |
+| `hat`         | 149       | 123                  | 12        | 14     |
+| `longsleeve`  | 576       | 455                  | 72        | 49       |
+| `outwear`     | 246       | 184                  | 38        | 24       |
+| `pants`       | 559       | 468                  | 42        | 49       |
+| `shirt`       | 345       | 290                  | 26        | 29       |
+| `shoes`       | 297       | 198                  | 73        | 26       |
+| `shorts`      | 257       | 202                  | 30        | 25       |
+| `skirt`       | 136       | 112                  | 12        | 12       |
+| `t-shirt`     | 928       | 795                  | 52        | 81       |
+| __TOTAL__     | 3781      | 3068                 | 372       | 341      |
 
 ## The Proposed Deep Learning Model
 
