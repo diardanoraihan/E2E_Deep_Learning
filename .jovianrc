@@ -1,3 +1,13 @@
 {
-  "notebooks": {}
+  "notebooks": {
+    "1_Model_Training.ipynb": {
+      "slug": "4b0d02480f6c4ecfab1281721c673a63"
+    },
+    "2_Model_Conversion.ipynb": {
+      "slug": "83edc95bab2f458c9ccd4fc8f3152d37"
+    },
+    "3_Model_Deployment.ipynb": {
+      "slug": "456ca946d04348328bf799ddf4a66961"
+    }
+  }
 }
