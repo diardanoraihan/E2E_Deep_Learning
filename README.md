@@ -6,7 +6,7 @@ The Jovian Data Science Capstone Project: Build an end-to-end deep learning mode
 - __Social Media__: [LinkedIn](https://www.linkedin.com/in/diardanoraihan), [Medium](https://diardano.medium.com/)
 
 ## Project Summary
-Imagine we need to deal with lots of real-world clothes images and your responsibility is to create an automated image classifier for an e-commerce company. As a result, the challenge is not only to build a robust deep learning model, but also to deploy it as a __serverless app__. Thus, The combination of __AWS Lambda__ and __API Gateway__ can be used for hosting this serverless APIs. 
+Imagine we need to deal with lots of real-world clothes images and your responsibility is to create an automated image classifier for an e-commerce company. As a result, the challenge is not only to build a robust deep learning model, but also to deploy it as a __serverless app__. We can combine the __AWS Lambda__ and __API Gateway__ for hosting this serverless APIs. 
 
 In this project, we will learn together how to:
 - __train a deep learning model__ to classify images using TensorFlow.
