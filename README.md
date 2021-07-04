@@ -1,6 +1,6 @@
 # E2E Deep Learning: Serverless Image Classifier
 The Jovian Data Science Capstone Project: Build an end-to-end deep learning model to classify real-world images using TensorFlow, TensorFlow Lite, Docker, and AWS Lambda with API Gateway.
-- __Publication__: [Towards Data Science](https://diardano.medium.com/deep-learning-techniques-for-text-classification-78d9dc40bf7c)
+- __Publication__: [Towards Data Science](https://diardano.medium.com/e2e-deep-learning-serverless-image-classification-d4351372c83e)
 - __Author__: Diardano Raihan 
 - __Email__: diardano@gmail.com
 - __Social Media__: [LinkedIn](https://www.linkedin.com/in/diardanoraihan), [Medium](https://diardano.medium.com/)
@@ -16,6 +16,7 @@ In this project, we will learn together how to:
 
 
 ## Datasets
+The dataset contains 3781 clothes images with the top 10 most popular categories, divided into the train, test, and validation sets. We can access the data [here](https://github.com/alexeygrigorev/clothing-dataset-small).
 | Label | Dataset Size | Train Size | Test Size | Validation Size | 
 |:-------:|:-------:|:-------------------:|:------------:|:----------:|
 | `dress`       | 288       | 241                  | 15        | 32     |
@@ -29,6 +30,8 @@ In this project, we will learn together how to:
 | `skirt`       | 136       | 112                  | 12        | 12       |
 | `t-shirt`     | 928       | 795                  | 52        | 81       |
 | __TOTAL__     | 3781      | 3068                 | 372       | 341      |
+
+<img src="https://raw.githubusercontent.com/diardanoraihan/E2E_Deep_Learning/main/Visualization/training_10_classes_images.png">
 
 ## The Proposed Deep Learning Model
 
