@@ -31,7 +31,7 @@ The dataset contains 3781 clothes images with the top 10 most popular categories
 | `t-shirt`     | 928       | 795                  | 52        | 81       |
 | __TOTAL__     | 3781      | 3068                 | 372       | 341      |
 
-<img src="https://raw.githubusercontent.com/diardanoraihan/E2E_Deep_Learning/main/Visualization/training_10_classes_images.png">
+<img src="https://raw.githubusercontent.com/diardanoraihan/E2E_Deep_Learning/main/Visualization/training_10_classes_images.png" width="600">
 
 ## The Proposed Deep Learning Model
 
