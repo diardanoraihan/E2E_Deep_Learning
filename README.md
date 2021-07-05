@@ -41,16 +41,15 @@ We will build a deep learning model using the transfer learning method and image
 - The sample result of an image being augmented is shown below.
 <img src="https://raw.githubusercontent.com/diardanoraihan/E2E_Deep_Learning/main/Visualization/sample_image_augmented.png" width="600">
 
-- Model training:
-
-<img src="https://raw.githubusercontent.com/diardanoraihan/E2E_Deep_Learning/main/Visualization/best_model.png" width="800">
-  
+- Model training:  
   - Classification accuracy on test dataset: 90.59%
   - Gap accuracy between test and training dataset: 3.04% (test acc > training acc)
   - Test loss: 0.273
   - Avoid overvitting: YES
+  <img src="https://raw.githubusercontent.com/diardanoraihan/E2E_Deep_Learning/main/Visualization/best_model.png" width="800">
+  
 - Test the Model:
-<img src="https://raw.githubusercontent.com/diardanoraihan/E2E_Deep_Learning/main/Visualization/best_model_predictions.png" width="600">
+<img src="https://raw.githubusercontent.com/diardanoraihan/E2E_Deep_Learning/main/Visualization/best_model_predictions.png" width="800">
 
 ## Model Conversion with TensorFlow Lite
 
