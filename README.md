@@ -30,16 +30,25 @@ The dataset contains 3781 clothes images with the top 10 most popular categories
 | `skirt`       | 136       | 112                  | 12        | 12       |
 | `t-shirt`     | 928       | 795                  | 52        | 81       |
 | __TOTAL__     | 3781      | 3068                 | 372       | 341      |
-
+The image samples from each class are shown below:
 <img src="https://raw.githubusercontent.com/diardanoraihan/E2E_Deep_Learning/main/Visualization/training_10_classes_images.png" width="600">
 
 ## The Proposed Deep Learning Model
 We will build a deep learning model using the transfer learning method and image augmentation to achieve a good performance and prevent overfitting. The pre-trained model we use is __InceptionV3__, but feel free to experiment with another model as well.
 - Download the InceptionV3 local weight [here](https://storage.googleapis.com/mledu-datasets/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5).
-- The sample result of an image being augmented is shown below:
-<img src="https://raw.githubusercontent.com/diardanoraihan/E2E_Deep_Learning/main/Visualization/sample_image.png" width="600">
+- The sample result of an image being augmented is shown below.
+  - Before:
+<img src="https://raw.githubusercontent.com/diardanoraihan/E2E_Deep_Learning/main/Visualization/sample_image.png" width="300">
+  - After:
 <img src="https://raw.githubusercontent.com/diardanoraihan/E2E_Deep_Learning/main/Visualization/sample_image_augmented.png" width="600">
-
+- Model training:
+<img src="https://raw.githubusercontent.com/diardanoraihan/E2E_Deep_Learning/main/Visualization/best_model.png" width="600">
+  - Classification accuracy on test dataset: 90.59%
+  - Gap accuracy between test and training dataset: 3.04% (test acc > training acc)
+  - Test loss: 0.273
+  - Avoid overvitting: YES
+- Test the Model:
+<img src="https://raw.githubusercontent.com/diardanoraihan/E2E_Deep_Learning/main/Visualization/best_model_predictions.png" width="600">
 
 ## Model Conversion with TensorFlow Lite
 
