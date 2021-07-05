@@ -36,9 +36,9 @@ The dataset contains 3781 clothes images with the top 10 most popular categories
 ## The Proposed Deep Learning Model
 We will build a deep learning model using the transfer learning method and image augmentation to achieve a good performance and prevent overfitting. The pre-trained model we use is __InceptionV3__, but feel free to experiment with another model as well.
 - Download the InceptionV3 local weight [here](https://storage.googleapis.com/mledu-datasets/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5).
-- The sample result of image augmentation is shown below:
-<img src="https://raw.githubusercontent.com/diardanoraihan/E2E_Deep_Learning/main/Visualization/training_10_classes_images.png" width="600">
-<img src="https://raw.githubusercontent.com/diardanoraihan/E2E_Deep_Learning/main/Visualization/training_10_classes_images.png" width="600">
+- The sample result of an image being augmented is shown below:
+<img src="https://raw.githubusercontent.com/diardanoraihan/E2E_Deep_Learning/main/Visualization/sample_image.png" width="600">
+<img src="https://raw.githubusercontent.com/diardanoraihan/E2E_Deep_Learning/main/Visualization/sample_image_augmented.png" width="600">
 
 
 ## Model Conversion with TensorFlow Lite
