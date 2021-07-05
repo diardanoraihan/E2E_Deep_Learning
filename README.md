@@ -1,5 +1,6 @@
 # E2E Deep Learning: Serverless Image Classifier
 __A Personal Data Science Capstone Project__ (inspired by [Jovian.ai](https://jovian.ai/)): 
+
 Build an end-to-end deep learning model to classify real-world images using TensorFlow, TensorFlow Lite, Docker, and AWS Lambda with API Gateway.
 - __Publication__: [Towards Data Science](https://towardsdatascience.com/e2e-deep-learning-serverless-image-classification-d4351372c83e)
 - __Author__: Diardano Raihan 
